@@ -635,7 +635,7 @@
 	</array>
 	<key>readme</key>
 	<string>## Usage
-- Access your Dots via the keyword `tot`. (Use the keyword `tot+` to also list your empty Dots.)
+- Access your Dots via the keyword `tot`. (You can also use `tot+` to include your empty Dots.)
 	* &lt;kbd&gt;⏎&lt;/kbd&gt; Open the Dot.
 	* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;⏎&lt;/kbd&gt; Append to the Dot.
 	* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;⏎&lt;/kbd&gt; Copy the contents of the Dot.
