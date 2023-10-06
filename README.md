@@ -6,15 +6,15 @@
 
 [Tot.app](https://tot.rocks/) Integration for [Alfred](https://www.alfredapp.com/).
 
-<img width="70%" alt="Showcase Image" src="https://github.com/chrisgrieser/tot-alfred/assets/73286100/d2aa38d9-3b38-4dbe-9041-41ab6bef91d3">
+<img width="75%" alt="Showcase Image" src="https://github.com/chrisgrieser/tot-alfred/assets/73286100/d2aa38d9-3b38-4dbe-9041-41ab6bef91d3">
 
 ## Usage
-- Access your Dots via the keyword `tot`. (You can also use `tot+` to include your empty Dots.)
+- Access your Dots via the keyword `tot`.
 	* <kbd>⏎</kbd> Open the Dot.
 	* <kbd>⌘</kbd><kbd>⏎</kbd> Append to the Dot.
 	* <kbd>⌥</kbd><kbd>⏎</kbd> Copy the contents of the Dot.
 	* <kbd>⌃</kbd><kbd>⏎</kbd> Delete the Dot.
-- Quickly append to a pre-selected Dot via the keyword `qq`. Use
+- Quickly append to a pre-selected Dot via the keyword `qq`.
 - Configure the [Hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/) to append the current browser tab and/or selected text.
 
 ## Installation
