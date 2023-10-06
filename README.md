@@ -1,22 +1,26 @@
- <!-- LTeX: enabled=false -->
-# tot alfred 
+<!-- LTeX: enabled=false -->
+# Tot-integratin for Alfred
 <!-- LTeX: enabled=true -->
-![Download count](https://img.shields.io/github/downloads/chrisgrieser/tot-alfred/total?label=Total%20Downloads&style=plastic) ![version number](https://img.shields.io/github/v/release/chrisgrieser/tot-alfred?label=Latest%20Release&style=plastic) 
 
-Tot.app Integrations for Alfred
+![Download count](https://img.shields.io/github/downloads/chrisgrieser/tot-alfred/total?label=Total%20Downloads&style=plastic) ![version number](https://img.shields.io/github/v/release/chrisgrieser/tot-alfred?label=Latest%20Release&style=plastic)
+
+[Tot.app](https://tot.rocks/) Integration for Alfred.
 
 - [ ] Showcase image to be inserted here.
 
-## Features
-- 
+## Usage
+- Access your Dots via the keyword `tot`. (Use the keyword `tot+` to also list your empty Dots.)
+	* <kbd>⏎</kbd> Open the Dot.
+	* <kbd>⌘</kbd><kbd>⏎</kbd> Append to the Dot.
+	* <kbd>⌥</kbd><kbd>⏎</kbd> Copy the contents of the Dot.
+	* <kbd>⌃</kbd><kbd>⏎</kbd> Delete the Dot.
+- Quickly append to a pre-selected Dot via the keyword `qq`. Use
+- Configure the [Hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/) to append the current browser tab and/or selected text.
 
 ## Installation
 [➡️ Download the latest release.](./releases/latest)
 
 When admitted to the Alfred Gallery, the workflow auto-updates via Alfred's workflow-update mechanism.
-
-## Usage
-- 
 
 ## Credits
 <!-- vale Google.FirstPerson = NO -->
