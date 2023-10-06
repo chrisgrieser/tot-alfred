@@ -1,15 +1,15 @@
 <!-- LTeX: enabled=false -->
-# Tot-integratin for Alfred
+# Tot-integration for Alfred
 <!-- LTeX: enabled=true -->
 
 ![Download count](https://img.shields.io/github/downloads/chrisgrieser/tot-alfred/total?label=Total%20Downloads&style=plastic) ![version number](https://img.shields.io/github/v/release/chrisgrieser/tot-alfred?label=Latest%20Release&style=plastic)
 
-[Tot.app](https://tot.rocks/) Integration for Alfred.
+[Tot.app](https://tot.rocks/) Integration for [Alfred](https://www.alfredapp.com/).
 
-- [ ] Showcase image to be inserted here.
+<img width="60%" alt="Showcase Image" src="https://github.com/chrisgrieser/tot-alfred/assets/73286100/d2aa38d9-3b38-4dbe-9041-41ab6bef91d3">
 
 ## Usage
-- Access your Dots via the keyword `tot`. (Use the keyword `tot+` to also list your empty Dots.)
+- Access your Dots via the keyword `tot`. (Usu to also list your empty Dots.)
 	* <kbd>⏎</kbd> Open the Dot.
 	* <kbd>⌘</kbd><kbd>⏎</kbd> Append to the Dot.
 	* <kbd>⌥</kbd><kbd>⏎</kbd> Copy the contents of the Dot.
