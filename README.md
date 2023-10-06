@@ -9,7 +9,7 @@
 <img width="70%" alt="Showcase Image" src="https://github.com/chrisgrieser/tot-alfred/assets/73286100/d2aa38d9-3b38-4dbe-9041-41ab6bef91d3">
 
 ## Usage
-- Access your Dots via the keyword `tot`. (Usu to also list your empty Dots.)
+- Access your Dots via the keyword `tot`. (You can also use `tot+` to include your empty Dots.)
 	* <kbd>⏎</kbd> Open the Dot.
 	* <kbd>⌘</kbd><kbd>⏎</kbd> Append to the Dot.
 	* <kbd>⌥</kbd><kbd>⏎</kbd> Copy the contents of the Dot.
