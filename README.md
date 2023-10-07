@@ -15,7 +15,10 @@
 	* <kbd>⌥</kbd><kbd>⏎</kbd> Copy the contents of the Dot.
 	* <kbd>⌃</kbd><kbd>⏎</kbd> Delete the Dot.
 - Quickly append to a pre-selected Dot via the keyword `qq`.
-- Configure the [Hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/) to append the current browser tab and/or selected text.
+- Configure the [Hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/) for quick appending to a configurable Dot.
+	* If a browser is frontmost, appends the current browser tab as Markdown link.
+	* In any other app, appends the selected text.
+	* If Tot is frontmost, opens all URLs in the current Dot instead.
 
 ## Installation
 [➡️ Download the latest release.](./releases/latest)
