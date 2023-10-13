@@ -85,6 +85,10 @@ function run(argv) {
 	// append
 	tot.openLocation(`tot://${quicksaveDot}/append?text=${encodeURIComponent(text)}`);
 
+	// hide the app
+	const totProcess = Application("System Events").applicationProcesses.byName("Tot");
+	totProcess.visible = false
+
 	// Pass for Alfred notification
 	return text;
 }
