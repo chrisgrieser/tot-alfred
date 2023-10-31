@@ -72,10 +72,7 @@ function run(argv) {
 	if (!(selectedText || isBrowser)) return "";
 
 	// determine text
-	const empty = tot.openLocation(`tot://${quicksaveDot}/content`) === "";
-	console.log("🪚 empty:", empty);
-	const lb = empty ? "" : "\n";
-	let text = lb + appendPrefix + selectedText;
+	let text = "\n" + appendPrefix + selectedText;
 	if (isBrowser) {
 		const { url, title } = browserTab();
 		const mdlink = `[${title}](${url})`;
@@ -84,7 +81,13 @@ function run(argv) {
 	}
 
 	// append
-	tot.openLocation(`tot://${quicksaveDot}/append?text=${encodeURIComponent(text)}`);
+	const empty = tot.openLocation(`tot://${quicksaveDot}/content`).match(/^\s*$/);
+	if (empty) {
+		text.trim(); 
+		tot.openLocation(`tots://${quicksaveDot}/replace?text=${encodeURIComponent(text)}`);
+	} else {
+		tot.openLocation(`tots://${quicksaveDot}/append?text=${encodeURIComponent(text)}`);
+	} 
 
 	// hide the app
 	const totProcess = Application("System Events").applicationProcesses.byName("Tot");
