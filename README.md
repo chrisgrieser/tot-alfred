@@ -5,6 +5,8 @@
 
 [Tot.app](https://tot.rocks/) Integration for [Alfred](https://www.alfredapp.com/).
 
+[Mentioned in the Mac Power User #796 (48:20).](https://www.relay.fm/mpu/796)
+
 <img width="75%" alt="Showcase Image" src="https://github.com/chrisgrieser/tot-alfred/assets/73286100/d2aa38d9-3b38-4dbe-9041-41ab6bef91d3">
 
 ## Usage
